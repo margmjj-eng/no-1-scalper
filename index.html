@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX Alpha Bot | Limited Access</title>
+    <style>
+        :root {
+            --neon-blue: #00d2ff;
+            --neon-green: #39ff14;
+            --dark-bg: #0a0b10;
+            --card-bg: #161b22;
+            --text-gray: #8b949e;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--dark-bg);
+            color: white;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--neon-blue), var(--neon-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            width: 100%;
+        }
+
+        .pricing-card {
+            background: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--neon-blue);
+        }
+
+        .limit-badge {
+            background: rgba(255, 68, 68, 0.15);
+            color: #ff4444;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+            border: 1px solid #ff4444;
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+
+        .price span {
+            font-size: 1rem;
+            color: var(--text-gray);
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 30px 0;
+            text-align: left;
+            color: var(--text-gray);
+            font-size: 0.95rem;
+        }
+
+        .features li {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li::before {
+            content: "✓";
+            color: var(--neon-green);
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            display: block;
+            background: var(--neon-blue);
+            color: #000;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+
+        .buy-btn:hover {
+            opacity: 0.9;
+        }
+
+        .yearly {
+            border: 2px solid var(--neon-green);
+        }
+
+        .counter {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: var(--text-gray);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ALGO-TRADER PRO</h1>
+        <p>Institutional Grade Forex Automation. Only 30 License Slots Available Monthly.</p>
+    </header>
+
+    <div class="container">
+        <div class="pricing-card">
+            <div class="limit-badge">ONLY 10 SLOTS TOTAL</div>
+            <h3>1 Month Access</h3>
+            <div class="price">$99<span>/mo</span></div>
+            <ul class="features">
+                <li>Full EA Installation Guide</li>
+                <li>All Currency Pairs</li>
+                <li>24/7 Support</li>
+                <li>Standard Updates</li>
+            </ul>
+            <a href="https://t.me/YourBotLink?start=1month" class="buy-btn">Reserve Slot</a>
+            <div class="counter">7/10 Slots Remaining</div>
+        </div>
+
+        <div class="pricing-card">
+            <div class="limit-badge">ONLY 10 SLOTS TOTAL</div>
+            <h3>3 Month Access</h3>
+            <div class="price">$249<span>/qt</span></div>
+            <ul class="features">
+                <li>Save $48 vs Monthly</li>
+                <li>Risk Management Console</li>
+                <li>Priority Telegram Support</li>
+                <li>Performance Optimization</li>
+            </ul>
+            <a href="https://t.me/YourBotLink?start=3month" class="buy-btn">Reserve Slot</a>
+            <div class="counter">4/10 Slots Remaining</div>
+        </div>
+
+        <div class="pricing-card yearly">
+            <div class="limit-badge" style="background:rgba(57, 255, 20, 0.1); color: var(--neon-green); border-color: var(--neon-green);">BEST VALUE - 10 SLOTS</div>
+            <h3>1 Year Access</h3>
+            <div class="price">$699<span>/yr</span></div>
+            <ul class="features">
+                <li>Save $489 vs Monthly</li>
+                <li>Personal 1-on-1 Setup</li>
+                <li>VIP Alpha Signal Group</li>
+                <li>Lifetime Updates & Patches</li>
+            </ul>
+            <a href="https://t.me/YourBotLink?start=1year" class="buy-btn" style="background: var(--neon-green);">Reserve Slot</a>
+            <div class="counter">2/10 Slots Remaining</div>
+        </div>
+    </div>
+
+</body>
+</html>
