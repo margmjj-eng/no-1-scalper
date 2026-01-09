@@ -3,131 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margarita XAUUSD | Elite Gold Trading</title>
+    <title>Margarita XAUUSD | Gold Mastery</title>
     <style>
-        /* Simplified CSS for instant loading */
         body {
-            background-color: #050505 !important;
+            background-color: #000000;
             color: #ffffff;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
-            padding: 40px 20px;
+            padding: 40px 10px;
             text-align: center;
         }
 
-        h1 {
-            color: #d4af37;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
-        }
+        .gold-glow { color: #d4af37; text-shadow: 0 0 10px rgba(212, 175, 55, 0.3); }
 
-        .subtitle {
-            color: #a0a0a0;
-            margin-bottom: 40px;
-        }
+        h1 { font-size: 2.2rem; margin-bottom: 5px; text-transform: uppercase; }
+        .tagline { color: #888; margin-bottom: 50px; font-size: 0.9rem; }
 
         .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-            max-width: 1000px;
+            gap: 25px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         .card {
-            background: #111111;
-            border: 1px solid #d4af37;
-            border-radius: 10px;
-            padding: 30px;
-            width: 280px;
-            margin-bottom: 20px;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 15px;
+            padding: 30px 20px;
+            width: 300px;
+            transition: 0.3s;
+            position: relative;
         }
 
-        .price {
-            font-size: 2.5rem;
-            color: #ffffff;
-            margin: 15px 0;
+        /* Duration Highlight */
+        .duration-label {
+            background: #d4af37;
+            color: #000;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 0.8rem;
         }
+
+        .price { font-size: 3rem; font-weight: bold; margin: 10px 0; }
+        .price span { font-size: 1rem; color: #666; }
 
         .features {
             text-align: left;
             padding: 0;
             list-style: none;
-            color: #a0a0a0;
+            margin: 20px 0 30px 10px;
             font-size: 0.9rem;
-            margin-bottom: 25px;
+            color: #bbb;
         }
 
-        .features li {
-            margin-bottom: 10px;
-        }
+        .features li { margin-bottom: 10px; }
+        .features li::before { content: "• "; color: #d4af37; font-weight: bold; }
 
         .btn {
             display: block;
             background: #d4af37;
-            color: #000000;
+            color: #000;
             text-decoration: none;
-            padding: 12px;
+            padding: 15px;
+            border-radius: 8px;
             font-weight: bold;
-            border-radius: 5px;
             text-transform: uppercase;
+            transition: 0.2s;
+        }
+
+        .btn:hover { background: #fff; box-shadow: 0 0 20px #d4af37; }
+
+        /* Scarcity Counter */
+        .scarcity {
+            color: #ff4444;
+            font-size: 0.75rem;
+            margin-top: 15px;
+            font-weight: bold;
         }
 
         .disclaimer {
-            margin-top: 50px;
+            margin-top: 60px;
             font-size: 0.7rem;
             color: #444;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            max-width: 700px;
+            margin-inline: auto;
         }
     </style>
 </head>
 <body>
 
-    <h1>Margarita XAUUSD</h1>
-    <div class="subtitle">Professional Gold Trading Engine</div>
+    <h1 class="gold-glow">Margarita XAUUSD</h1>
+    <div class="tagline">Institutional Gold Algorithmic Solutions</div>
 
     <div class="container">
+        
         <div class="card">
-            <div style="color:#d4af37; font-weight:bold;">STARTER</div>
-            <div class="price">$99</div>
+            <div class="duration-label">1 MONTH ACCESS</div>
+            <div class="price">$99<span>/mo</span></div>
             <ul class="features">
-                <li>✓ Full Bot Access</li>
-                <li>✓ M15 Gold Strategy</li>
-                <li>✓ NFP News Shield</li>
+                <li>Full Bot Installation</li>
+                <li>MT5 License Key</li>
+                <li>Standard News Filter</li>
+                <li>Telegram Support</li>
             </ul>
-            <a href="https://t.me/XAUUSD_Margarita_bot?start=1month" class="btn">Get Started</a>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=1month" class="btn">Select 1 Month</a>
+            <div class="scarcity">8 / 10 SLOTS REMAINING</div>
+        </div>
+
+        <div class="card" style="border-color: #d4af37;">
+            <div class="duration-label">3 MONTHS ACCESS</div>
+            <div class="price">$249<span>/qt</span></div>
+            <ul class="features">
+                <li>Everything in Monthly</li>
+                <li>Prop Firm Setup Guide</li>
+                <li>Priority 1-on-1 Help</li>
+                <li>Optimized Set Files</li>
+            </ul>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=3month" class="btn">Select 3 Months</a>
+            <div class="scarcity">4 / 10 SLOTS REMAINING</div>
         </div>
 
         <div class="card">
-            <div style="color:#d4af37; font-weight:bold;">ELITE</div>
-            <div class="price">$249</div>
+            <div class="duration-label">12 MONTHS (YEARLY)</div>
+            <div class="price">$699<span>/yr</span></div>
             <ul class="features">
-                <li>✓ Save $48 Total</li>
-                <li>✓ Prop Firm Settings</li>
-                <li>✓ Priority Support</li>
+                <li>BEST VALUE (Save $489)</li>
+                <li>Lifetime Bot Updates</li>
+                <li>Full VPS Setup Service</li>
+                <li>VIP Alpha Chat Access</li>
             </ul>
-            <a href="https://t.me/XAUUSD_Margarita_bot?start=3month" class="btn">Get Started</a>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=1year" class="btn">Select 12 Months</a>
+            <div class="scarcity">2 / 10 SLOTS REMAINING</div>
         </div>
 
-        <div class="card">
-            <div style="color:#d4af37; font-weight:bold;">INSTITUTIONAL</div>
-            <div class="price">$699</div>
-            <ul class="features">
-                <li>✓ Save $489 Total</li>
-                <li>✓ VIP Alpha Group</li>
-                <li>✓ VPS Installation</li>
-            </ul>
-            <a href="https://t.me/XAUUSD_Margarita_bot?start=1year" class="btn">Get Started</a>
-        </div>
     </div>
 
     <div class="disclaimer">
-        RISK WARNING: Gold trading involves high risk. Only trade with money you can afford to lose.
+        RISK DISCLOSURE: Trading Gold involves high risk. Margarita XAUUSD is a software tool, not a financial advisor. Past performance does not guarantee future results.
     </div>
 
 </body>
