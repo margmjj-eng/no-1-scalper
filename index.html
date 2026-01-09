@@ -4,91 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Margarita XAUUSD | Elite Gold Trading</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --gold: #d4af37;
-            --gold-glow: rgba(212, 175, 55, 0.4);
-            --dark-bg: #050505;
-            --card-bg: #111111;
-            --text-main: #ffffff;
-            --text-dim: #a0a0a0;
-        }
-
+        /* Simplified CSS for instant loading */
         body {
-            background-color: var(--dark-bg);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
+            background-color: #050505 !important;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 40px 20px;
-            line-height: 1.6;
-        }
-
-        /* Luxury Header */
-        header {
             text-align: center;
-            margin-bottom: 60px;
         }
 
         h1 {
-            font-family: 'Cinzel', serif;
+            color: #d4af37;
             font-size: 2.5rem;
-            color: var(--gold);
             text-transform: uppercase;
-            letter-spacing: 4px;
+            letter-spacing: 2px;
             margin-bottom: 10px;
-            text-shadow: 0 0 15px var(--gold-glow);
         }
 
         .subtitle {
-            font-size: 1.1rem;
-            color: var(--text-dim);
-            letter-spacing: 1px;
+            color: #a0a0a0;
+            margin-bottom: 40px;
         }
 
-        /* Pricing Container */
         .container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 30px;
-            max-width: 1200px;
+            gap: 20px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
-        /* Professional Card Design */
         .card {
-            background: var(--card-bg);
-            border: 1px solid #222;
-            border-radius: 12px;
-            padding: 40px 30px;
-            width: 100%;
-            max-width: 320px;
-            text-align: center;
-            transition: transform 0.3s ease, border-color 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            border-color: var(--gold);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-
-        .tier-name {
-            font-family: 'Cinzel', serif;
-            font-size: 1.2rem;
-            color: var(--gold);
-            margin-bottom: 15px;
+            background: #111111;
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 30px;
+            width: 280px;
+            margin-bottom: 20px;
         }
 
         .price {
-            font-size: 3.5rem;
-            font-weight: 300;
-            margin-bottom: 5px;
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin: 15px 0;
         }
 
-        .price span {
-            font-size: 1rem;
-            color: var(--text-dim);
+        .features {
+            text-align: left;
+            padding: 0;
+            list-style: none;
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: block;
+            background: #d4af37;
+            color: #000000;
+            text-decoration: none;
+            padding: 12px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        .disclaimer {
+            margin-top: 50px;
+            font-size: 0.7rem;
+            color: #444;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Margarita XAUUSD</h1>
+    <div class="subtitle">Professional Gold Trading Engine</div>
+
+    <div class="container">
+        <div class="card">
+            <div style="color:#d4af37; font-weight:bold;">STARTER</div>
+            <div class="price">$99</div>
+            <ul class="features">
+                <li>✓ Full Bot Access</li>
+                <li>✓ M15 Gold Strategy</li>
+                <li>✓ NFP News Shield</li>
+            </ul>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=1month" class="btn">Get Started</a>
+        </div>
+
+        <div class="card">
+            <div style="color:#d4af37; font-weight:bold;">ELITE</div>
+            <div class="price">$249</div>
+            <ul class="features">
+                <li>✓ Save $48 Total</li>
+                <li>✓ Prop Firm Settings</li>
+                <li>✓ Priority Support</li>
+            </ul>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=3month" class="btn">Get Started</a>
+        </div>
+
+        <div class="card">
+            <div style="color:#d4af37; font-weight:bold;">INSTITUTIONAL</div>
+            <div class="price">$699</div>
+            <ul class="features">
+                <li>✓ Save $489 Total</li>
+                <li>✓ VIP Alpha Group</li>
+                <li>✓ VPS Installation</li>
+            </ul>
+            <a href="https://t.me/XAUUSD_Margarita_bot?start=1year" class="btn">Get Started</a>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        RISK WARNING: Gold trading involves high risk. Only trade with money you can afford to lose.
+    </div>
+
+</body>
+</html>
