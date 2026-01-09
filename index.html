@@ -3,192 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margarita XAUUSD | Gold Mastery</title>
+    <title>Margarita XAUUSD | Elite Gold Trading</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --gold: #d4af37;
-            --gold-bright: #fcc201;
-            --dark-bg: #0d0d0d;
-            --card-bg: #1a1a1a;
-            --text-gray: #a0a0a0;
+            --gold-glow: rgba(212, 175, 55, 0.4);
+            --dark-bg: #050505;
+            --card-bg: #111111;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
         }
 
         body {
-            font-family: 'Georgia', serif; /* Elegant, premium feel */
             background-color: var(--dark-bg);
-            color: white;
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
             margin: 0;
-            padding: 60px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 5px;
-            background: linear-gradient(to bottom, var(--gold-bright), var(--gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .subtitle { color: var(--gold); font-weight: bold; letter-spacing: 1px; }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 30px;
-            max-width: 1200px;
-            width: 100%;
-        }
-
-        .pricing-card {
-            background: var(--card-bg);
-            border: 1px solid #333;
-            border-radius: 4px; /* Sharp corners for professional look */
-            padding: 40px;
-            text-align: center;
-            transition: all 0.4s ease;
-            position: relative;
-        }
-
-        .pricing-card:hover {
-            border-color: var(--gold);
-            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
-            transform: translateY(-5px);
-        }
-
-        .limit-alert {
-            color: #ff4d4d;
-            font-size: 0.75rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-            display: block;
-        }
-
-        .price { font-size: 3.5rem; font-weight: 300; margin: 20px 0; color: #fff; }
-        .price span { font-size: 1rem; color: var(--text-gray); }
-
-        .specs {
-            margin: 25px 0;
-            padding: 15px 0;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
-            font-size: 0.9rem;
-            color: var(--gold);
-        }
-
-        .features {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 35px;
-            text-align: left;
-        }
-
-        .features li {
-            margin-bottom: 15px;
-            color: var(--text-gray);
-            font-size: 0.95rem;
-            display: flex;
-            align-items: center;
-        }
-
-        .features li::before {
-            content: "•";
-            color: var(--gold);
-            margin-right: 12px;
-            font-size: 1.5rem;
-        }
-
-        .cta-btn {
-            display: block;
-            background: var(--gold);
-            color: black;
-            text-decoration: none;
-            padding: 18px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: background 0.3s;
-        }
-
-        .cta-btn:hover { background: var(--gold-bright); }
-
-        .status { margin-top: 20px; font-size: 0.8rem; color: #666; }
-
-        .disclaimer {
-            margin-top: 80px;
-            max-width: 800px;
-            font-size: 0.7rem;
-            color: #444;
-            text-align: center;
+            padding: 40px 20px;
             line-height: 1.6;
         }
-    </style>
-</head>
-<body>
 
-    <header>
-        <h1>MARGARITA XAUUSD</h1>
-        <div class="subtitle">Institutional Gold Liquidity Engine</div>
-        <p style="color: var(--text-gray);">Limited to 10 license allocations per tier per month.</p>
-    </header>
+        /* Luxury Header */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
 
-    <div class="container">
-        <div class="pricing-card">
-            <span class="limit-alert">Available Slots: 8/10</span>
-            <h3>Monthly License</h3>
-            <div class="price">$99<span>/mo</span></div>
-            <div class="specs">M15/H1 Timeframe • Low Drawdown</div>
-            <ul class="features">
-                <li>Full XAUUSD Setup Guide</li>
-                <li>Real-time News Filter</li>
-                <li>Standard License Key</li>
-                <li>Telegram Support Group</li>
-            </ul>
-            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Monthly Pass</a>
-        </div>
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px var(--gold-glow);
+        }
 
-        <div class="pricing-card" style="border: 1px solid var(--gold);">
-            <span class="limit-alert">Available Slots: 4/10</span>
-            <h3>Quarterly Elite</h3>
-            <div class="price">$249<span>/3mo</span></div>
-            <div class="specs">Advanced Risk Management • High Alpha</div>
-            <ul class="features">
-                <li>Optimized Set Files</li>
-                <li>Prop Firm Passing Mode</li>
-                <li>Priority 1-on-1 Support</li>
-                <li>Weekly Performance Reviews</li>
-            </ul>
-            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Quarterly Pass</a>
-        </div>
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+        }
 
-        <div class="pricing-card">
-            <span class="limit-alert">Available Slots: 2/10</span>
-            <h3>Institutional Yearly</h3>
-            <div class="price">$699<span>/yr</span></div>
-            <div class="specs">VIP Access • Maximum Efficiency</div>
-            <ul class="features">
-                <li>Lifetime Bot Updates</li>
-                <li>Personal VPS Installation</li>
-                <li>Direct Dev Communication</li>
-                <li>Private Gold Signal Group</li>
-            </ul>
-            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Yearly Pass</a>
-        </div>
-    </div>
+        /* Pricing Container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-    <div class="disclaimer">
-        <strong>Risk Warning:</strong> Trading Forex and Gold (XAUUSD) involves high risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade, you should carefully consider your investment objectives and level of experience. Margarita XAUUSD is a tool to assist trading decisions, not a guarantee of profit.
-    </div>
+        /* Professional Card Design */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 40px 30px;
+            width: 100%;
+            max-width: 320px;
+            text-align: center;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-</body>
-</html>
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .tier-name {
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            color: var(--gold);
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+
+        .price span {
+            font-size: 1rem;
+            color: var(--text-dim);
