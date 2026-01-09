@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FX Alpha Bot | Limited Access</title>
+    <title>Margarita XAUUSD | Gold Mastery</title>
     <style>
         :root {
-            --neon-blue: #00d2ff;
-            --neon-green: #39ff14;
-            --dark-bg: #0a0b10;
-            --card-bg: #161b22;
-            --text-gray: #8b949e;
+            --gold: #d4af37;
+            --gold-bright: #fcc201;
+            --dark-bg: #0d0d0d;
+            --card-bg: #1a1a1a;
+            --text-gray: #a0a0a0;
         }
 
         body {
-            font-family: 'Inter', -apple-system, sans-serif;
+            font-family: 'Georgia', serif; /* Elegant, premium feel */
             background-color: var(--dark-bg);
             color: white;
             margin: 0;
-            padding: 40px 20px;
+            padding: 60px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -30,157 +30,164 @@
         }
 
         header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            background: linear-gradient(to right, var(--neon-blue), var(--neon-green));
+            font-size: 3rem;
+            margin-bottom: 5px;
+            background: linear-gradient(to bottom, var(--gold-bright), var(--gold));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
+
+        .subtitle { color: var(--gold); font-weight: bold; letter-spacing: 1px; }
 
         .container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            max-width: 1100px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
             width: 100%;
         }
 
         .pricing-card {
             background: var(--card-bg);
-            border: 1px solid #30363d;
-            border-radius: 16px;
-            padding: 30px;
+            border: 1px solid #333;
+            border-radius: 4px; /* Sharp corners for professional look */
+            padding: 40px;
             text-align: center;
-            transition: transform 0.3s ease, border-color 0.3s ease;
+            transition: all 0.4s ease;
             position: relative;
-            overflow: hidden;
         }
 
         .pricing-card:hover {
-            transform: translateY(-10px);
-            border-color: var(--neon-blue);
+            border-color: var(--gold);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+            transform: translateY(-5px);
         }
 
-        .limit-badge {
-            background: rgba(255, 68, 68, 0.15);
-            color: #ff4444;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+        .limit-alert {
+            color: #ff4d4d;
+            font-size: 0.75rem;
             font-weight: bold;
-            display: inline-block;
+            text-transform: uppercase;
             margin-bottom: 15px;
-            border: 1px solid #ff4444;
+            display: block;
         }
 
-        .price {
-            font-size: 3rem;
-            font-weight: 800;
-            margin: 20px 0;
-        }
+        .price { font-size: 3.5rem; font-weight: 300; margin: 20px 0; color: #fff; }
+        .price span { font-size: 1rem; color: var(--text-gray); }
 
-        .price span {
-            font-size: 1rem;
-            color: var(--text-gray);
+        .specs {
+            margin: 25px 0;
+            padding: 15px 0;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            font-size: 0.9rem;
+            color: var(--gold);
         }
 
         .features {
             list-style: none;
             padding: 0;
-            margin: 20px 0 30px 0;
+            margin-bottom: 35px;
             text-align: left;
-            color: var(--text-gray);
-            font-size: 0.95rem;
         }
 
         .features li {
-            margin-bottom: 12px;
+            margin-bottom: 15px;
+            color: var(--text-gray);
+            font-size: 0.95rem;
             display: flex;
             align-items: center;
         }
 
         .features li::before {
-            content: "✓";
-            color: var(--neon-green);
-            margin-right: 10px;
-            font-weight: bold;
+            content: "•";
+            color: var(--gold);
+            margin-right: 12px;
+            font-size: 1.5rem;
         }
 
-        .buy-btn {
+        .cta-btn {
             display: block;
-            background: var(--neon-blue);
-            color: #000;
+            background: var(--gold);
+            color: black;
             text-decoration: none;
-            padding: 15px;
-            border-radius: 8px;
+            padding: 18px;
             font-weight: bold;
-            transition: opacity 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.3s;
         }
 
-        .buy-btn:hover {
-            opacity: 0.9;
-        }
+        .cta-btn:hover { background: var(--gold-bright); }
 
-        .yearly {
-            border: 2px solid var(--neon-green);
-        }
+        .status { margin-top: 20px; font-size: 0.8rem; color: #666; }
 
-        .counter {
-            margin-top: 15px;
-            font-size: 0.85rem;
-            color: var(--text-gray);
+        .disclaimer {
+            margin-top: 80px;
+            max-width: 800px;
+            font-size: 0.7rem;
+            color: #444;
+            text-align: center;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>ALGO-TRADER PRO</h1>
-        <p>Institutional Grade Forex Automation. Only 30 License Slots Available Monthly.</p>
+        <h1>MARGARITA XAUUSD</h1>
+        <div class="subtitle">Institutional Gold Liquidity Engine</div>
+        <p style="color: var(--text-gray);">Limited to 10 license allocations per tier per month.</p>
     </header>
 
     <div class="container">
         <div class="pricing-card">
-            <div class="limit-badge">ONLY 10 SLOTS TOTAL</div>
-            <h3>1 Month Access</h3>
+            <span class="limit-alert">Available Slots: 8/10</span>
+            <h3>Monthly License</h3>
             <div class="price">$99<span>/mo</span></div>
+            <div class="specs">M15/H1 Timeframe • Low Drawdown</div>
             <ul class="features">
-                <li>Full EA Installation Guide</li>
-                <li>All Currency Pairs</li>
-                <li>24/7 Support</li>
-                <li>Standard Updates</li>
+                <li>Full XAUUSD Setup Guide</li>
+                <li>Real-time News Filter</li>
+                <li>Standard License Key</li>
+                <li>Telegram Support Group</li>
             </ul>
-            <a href="https://t.me/YourBotLink?start=1month" class="buy-btn">Reserve Slot</a>
-            <div class="counter">7/10 Slots Remaining</div>
+            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Monthly Pass</a>
+        </div>
+
+        <div class="pricing-card" style="border: 1px solid var(--gold);">
+            <span class="limit-alert">Available Slots: 4/10</span>
+            <h3>Quarterly Elite</h3>
+            <div class="price">$249<span>/3mo</span></div>
+            <div class="specs">Advanced Risk Management • High Alpha</div>
+            <ul class="features">
+                <li>Optimized Set Files</li>
+                <li>Prop Firm Passing Mode</li>
+                <li>Priority 1-on-1 Support</li>
+                <li>Weekly Performance Reviews</li>
+            </ul>
+            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Quarterly Pass</a>
         </div>
 
         <div class="pricing-card">
-            <div class="limit-badge">ONLY 10 SLOTS TOTAL</div>
-            <h3>3 Month Access</h3>
-            <div class="price">$249<span>/qt</span></div>
-            <ul class="features">
-                <li>Save $48 vs Monthly</li>
-                <li>Risk Management Console</li>
-                <li>Priority Telegram Support</li>
-                <li>Performance Optimization</li>
-            </ul>
-            <a href="https://t.me/YourBotLink?start=3month" class="buy-btn">Reserve Slot</a>
-            <div class="counter">4/10 Slots Remaining</div>
-        </div>
-
-        <div class="pricing-card yearly">
-            <div class="limit-badge" style="background:rgba(57, 255, 20, 0.1); color: var(--neon-green); border-color: var(--neon-green);">BEST VALUE - 10 SLOTS</div>
-            <h3>1 Year Access</h3>
+            <span class="limit-alert">Available Slots: 2/10</span>
+            <h3>Institutional Yearly</h3>
             <div class="price">$699<span>/yr</span></div>
+            <div class="specs">VIP Access • Maximum Efficiency</div>
             <ul class="features">
-                <li>Save $489 vs Monthly</li>
-                <li>Personal 1-on-1 Setup</li>
-                <li>VIP Alpha Signal Group</li>
-                <li>Lifetime Updates & Patches</li>
+                <li>Lifetime Bot Updates</li>
+                <li>Personal VPS Installation</li>
+                <li>Direct Dev Communication</li>
+                <li>Private Gold Signal Group</li>
             </ul>
-            <a href="https://t.me/YourBotLink?start=1year" class="buy-btn" style="background: var(--neon-green);">Reserve Slot</a>
-            <div class="counter">2/10 Slots Remaining</div>
+            <a href="https://t.me/XAUUSD_margarita" class="cta-btn">Secure Yearly Pass</a>
         </div>
+    </div>
+
+    <div class="disclaimer">
+        <strong>Risk Warning:</strong> Trading Forex and Gold (XAUUSD) involves high risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade, you should carefully consider your investment objectives and level of experience. Margarita XAUUSD is a tool to assist trading decisions, not a guarantee of profit.
     </div>
 
 </body>
